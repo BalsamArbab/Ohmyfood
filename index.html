@@ -8,15 +8,20 @@
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
 
         <!-- CSS Files -->
-        <link rel="stylesheet" href="CSS/Meyercss.css">
-        <link rel="stylesheet" href="CSS/main.css">
-        <link rel="stylesheet" href="CSS/MediaQueries.css">
+        <link rel="stylesheet" href="CSS/meyerCSS.css">
+        <link rel="stylesheet" href="CSS/SCSS.css">
 
         <script src="https://kit.fontawesome.com/1c125865ae.js" crossorigin="anonymous"></script>
+        
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+        </style>
 </head>
 <body>
     <header>
-        <img class="card-img" src="images/logo/ohmyfood@2x.svg" alt="Oh my food Logo">
+        <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="Oh my food Logo">
     </header>
     <nav>
         <div id="search-box">
@@ -32,32 +37,32 @@
     <article class="instructions">
         <h2>How it works</h2>
         <ol>
-            <li>Chose a restaurant</li>
-            <li>Create your menu</li>
-            <li>Go enjoy it at the restaurant</li>
+            <li class="instruction-list">Chose a restaurant</li>
+            <li class="instruction-list">Create your menu</li>
+            <li class="instruction-list">Go enjoy it at the restaurant</li>
         </ol>
     </article>
     <section class="Restaurants">
         <h2>Restaurants</h2>
-        <article>
+        <article class="card">
             <img class="card-img" src="images/restaurants/The-Full-Palatte.jpg" alt="The Full Palatte">
                 <h2 class="card-title">The Full Palatte</h2>
                 <p class="card-location">New York</p>
                 <i class="fas fa-heart"></i>
         </article>
-        <article>
+        <article class="card">
             <img class="card-img" src="images/restaurants/The-Enchanted-Plate.jpg" alt="The Enchanted Plate">
                 <h2 class="card-title">The Enchanted Plate</h2>
                 <p class="card-location">New York</p>
                 <i class="fas fa-heart"></i>
         </article>
-        <article>
+        <article class="card">
             <img class="card-img" src="images/restaurants/Bastille.jpg" alt="Bastille">
                 <h2 class="card-title">Bastille</h2>
                 <p class="card-location">New York</p>
                 <i class="fas fa-heart"></i>
         </article>
-        <article>
+        <article class="card">
             <img class="card-img" src="images/restaurants/Le-Gourmand.jpg" alt="Le Gourmand">
                 <h2 class="card-title">Le Gourmand</h2>
                 <p class="card-location">New York</p>

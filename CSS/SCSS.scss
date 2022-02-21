@@ -1,0 +1,34 @@
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Shrikhand', cursive;}
+
+p {font-family: 'Roboto', sans-serif;}
+
+/* small screens*/
+@media screen and (max-width: 790px) {
+
+header{
+    img{
+        width:10vw;
+        margin: 10px;
+    }
+}
+
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+
+.instructions{
+    border: 1px solid black;
+
+}
+
+.Resturants{
+    border: 1px solid black;
+    background-color: #f6f6f6;
+}
+
+}

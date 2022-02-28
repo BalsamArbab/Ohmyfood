@@ -1,0 +1,11 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Open Classroom : projet #2",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./scss:./css --style expanded"
+  },
+  "author": "Balsam",
+  "license": "ISC"
+}

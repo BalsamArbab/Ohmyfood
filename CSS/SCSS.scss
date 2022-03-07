@@ -6,29 +6,92 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Shrikhand', cursive;}
 
 p {font-family: 'Roboto', sans-serif;}
 
-/* small screens*/
-@media screen and (max-width: 790px) {
 
 header{
+    display: flex;
     img{
-        width:10vw;
-        margin: 10px;
+        padding: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        object-fit: contain;
     }
 }
 
-.card-img{
-    width: 50px;
-    height: 50px;
+nav{
+    background-color: #eaeaea;
+    padding: 10px;
 }
-
-.instructions{
-    border: 1px solid black;
-
+.search-txt{
+    border: none;
+    background-color:#eaeaea ;
+    padding: 5px;
 }
-
-.Resturants{
-    border: 1px solid black;
+.call-to-action{
     background-color: #f6f6f6;
+    line-height: 40px;
+    padding: 15px;
 }
+.explore-button{
+    color: white;
+    background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
+    border-radius: 15%;
+    padding: 10px;
+    border: none;
+}
+ 
+.instructions{
+    padding: 15px;
+    li{
+        width: 90%;
+        padding: 5px;
+        border-radius: 25px;
+        margin: 10px auto;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        .fas{
+            padding: 10px;
+        } 
+    }
+}
+
+.Restaurants{
+    padding: 15px;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    width: 90%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card-img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-info{
+    width: 80%;
+    padding: 10px 0 10px 10px;
+    
+}
+.card-icon{
+    align-self: center;
+    // font-weight: 900;
+}
+
+footer{
+    background-color: #353535;
+    color: white;
+    padding: 20px;
+    line-height: 25px;
 
 }

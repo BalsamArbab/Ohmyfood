@@ -1,0 +1,57 @@
+.restaurant-img{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    
+
+
+.restaurant-card{
+    margin-top: -40px;
+    padding: 15px;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.restaurant-info{
+        border-radius: 20px;
+        padding: 5px;
+        .far{
+            justify-content: flex-end;
+        }
+    }
+
+.menu-item{
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    .menu-title{
+        padding: 10px;
+        border: solid 1px black;
+        font-size: 14px;
+    }
+    .menu-price{
+        align-items: flex-end;
+        border: solid 1px black;
+        margin: auto;
+    }
+    .menu-icon{
+        float: right;
+        height: auto;
+        margin: auto;
+        border: solid 1px black;
+        background-color: #99e2d0;
+        color: white;
+        padding: 10px;
+    }
+}
+
+.course{
+    border: solid 1px black;
+}

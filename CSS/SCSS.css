@@ -6,26 +6,58 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+li, span, a, p {
+  font-size: 14px;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 header img {
   padding: 10px;
-  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   -o-object-fit: contain;
      object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.card-icon:hover .far {
+  color: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+}
+
+.instructions li:hover {
+  background-color: #f5edff;
+}
+
+.instructions li:hover .fas {
+  padding: 10px;
+  color: #9356DC;
 }
 
 nav {
   background-color: #eaeaea;
   padding: 10px;
+  line-height: 5px;
 }
 
-.search-txt {
+nav .search-box {
+  margin: 0 auto;
+  display: block;
+}
+
+nav .search-txt {
   border: none;
   background-color: #eaeaea;
   padding: 5px;
@@ -35,15 +67,17 @@ nav {
   background-color: #f6f6f6;
   line-height: 40px;
   padding: 15px;
+  text-align: center;
 }
 
 .explore-button {
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
-  border-radius: 15%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%);
+  border-radius: 15px;
   padding: 10px;
   border: none;
+  text-decoration: none;
 }
 
 .instructions {
@@ -52,15 +86,24 @@ nav {
 
 .instructions li {
   width: 90%;
-  padding: 5px;
-  border-radius: 25px;
-  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px auto;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .instructions li .fas {
   padding: 10px;
+  color: #7e7e7e;
+}
+
+.roundnumber {
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  padding: 5px 8px 5px 8px;
+  color: white;
 }
 
 .Restaurants {
@@ -75,7 +118,6 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  padding: 5px;
   border-radius: 25px;
   background-color: white;
   margin: 10px auto;
@@ -107,12 +149,5 @@ nav {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-footer {
-  background-color: #353535;
-  color: white;
-  padding: 20px;
-  line-height: 25px;
 }
 /*# sourceMappingURL=SCSS.css.map */

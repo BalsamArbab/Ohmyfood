@@ -1,0 +1,21 @@
+// i.far.fa-heart:hover {
+//     background: 
+//     background-clip: content-box;
+// }
+
+.card-icon:hover{
+    .far{
+        color:linear-gradient(to bottom, $primary-color 0%, $secondary-color 100%);
+    }
+   
+}
+
+
+.instructions li:hover {
+    background-color: #f5edff;
+    .fas {
+    padding: 10px;
+    color: $primary-color;
+   
+    }
+}

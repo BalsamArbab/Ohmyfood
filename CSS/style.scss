@@ -1,21 +1,20 @@
 @import '_variables&mixins.scss';
 @import '_header&footer.scss';
 @import '_animation.scss';
+@import '_menu.scss';
 
 
 nav{
     background-color: #eaeaea;
     padding: 10px;
     line-height: 5px;
-    .search-box{
-        margin: 0 auto;
-        display: block;
-    }
+    display: flex;
+    justify-content: center;
     .search-txt{
         border: none;
         background-color:#eaeaea ;
-        padding: 5px;
-}  
+        padding: 5px 5px 5px 10px;
+    }  
 }
 
 .call-to-action{
@@ -94,12 +93,3 @@ nav{
     // font-weight: 900;
 
 }
-
-
-
-
-
-
-// .Restaurant
-// .Course
-// .Menu-item

@@ -33,8 +33,9 @@ footer {
   line-height: 25px;
 }
 
-.card-icon:hover .far {
-  color: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
+.card-icon:hover i.fa-heart {
+  background-color: gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-clip: text;
 }
 
 .instructions li:hover {
@@ -46,21 +47,92 @@ footer {
   color: #9356DC;
 }
 
+.restaurant-img {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card {
+  margin-top: -40px;
+  padding: 15px;
+  background-color: #f6f6f6;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 30px;
+}
+
+.restaurant-info {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.restaurant-info .far {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px auto;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-item .menu-title {
+  padding: 10px;
+  border: solid 1px black;
+  font-size: 14px;
+}
+
+.menu-item .menu-price {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: solid 1px black;
+  margin: auto;
+}
+
+.menu-item .menu-icon {
+  float: right;
+  height: auto;
+  margin: auto;
+  border: solid 1px black;
+  background-color: #99e2d0;
+  color: white;
+  padding: 10px;
+}
+
+.course {
+  border: solid 1px black;
+}
+
 nav {
   background-color: #eaeaea;
   padding: 10px;
   line-height: 5px;
-}
-
-nav .search-box {
-  margin: 0 auto;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav .search-txt {
   border: none;
   background-color: #eaeaea;
-  padding: 5px;
+  padding: 5px 5px 5px 10px;
 }
 
 .call-to-action {
@@ -150,4 +222,4 @@ nav .search-txt {
       -ms-grid-row-align: center;
       align-self: center;
 }
-/*# sourceMappingURL=SCSS.css.map */
+/*# sourceMappingURL=style.css.map */

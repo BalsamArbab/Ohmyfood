@@ -6,8 +6,6 @@
     margin-bottom: 10px;
 }
     
-
-
 .restaurant-card{
     margin-top: -40px;
     padding: 15px;
@@ -31,27 +29,31 @@
     margin: 10px auto;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     justify-content: space-between;
+    text-overflow: ellipsis;
     .menu-title{
         padding: 10px;
-        border: solid 1px black;
         font-size: 14px;
+        text-overflow: ellipsis;
     }
     .menu-price{
         align-items: flex-end;
-        border: solid 1px black;
-        margin: auto;
+        padding: 10px;
+        align-self: flex-end;
+        
+
     }
     .menu-icon{
         float: right;
         height: auto;
-        margin: auto;
-        border: solid 1px black;
+        margin: 0 0 0 0;
         background-color: #99e2d0;
         color: white;
-        padding: 10px;
+        padding: 15px 15px 15px 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 }
 
-.course{
-    border: solid 1px black;
+course{
+    text-decoration: #99e2d0 underline;
 }

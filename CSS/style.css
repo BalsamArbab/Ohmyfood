@@ -87,34 +87,38 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-overflow: ellipsis;
 }
 
 .menu-item .menu-title {
   padding: 10px;
-  border: solid 1px black;
   font-size: 14px;
+  text-overflow: ellipsis;
 }
 
 .menu-item .menu-price {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  border: solid 1px black;
-  margin: auto;
+  padding: 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .menu-item .menu-icon {
   float: right;
   height: auto;
-  margin: auto;
-  border: solid 1px black;
+  margin: 0 0 0 0;
   background-color: #99e2d0;
   color: white;
-  padding: 10px;
+  padding: 15px 15px 15px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.course {
-  border: solid 1px black;
+course {
+  -webkit-text-decoration: #99e2d0 underline;
+          text-decoration: #99e2d0 underline;
 }
 
 nav {

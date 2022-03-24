@@ -1,0 +1,73 @@
+.restaurant-img{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    
+.restaurant-card{
+    margin-top: -40px;
+    padding: 15px;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.restaurant-info{
+        border-radius: 20px;
+        padding: 5px 0 20px 5px;
+        .far{
+            justify-content: flex-end;
+        }
+    }
+
+.menu-item{
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    height: 50px;
+    .menu-title{
+        max-width: 80%;
+        padding: 10px;
+        font-size: 14px;
+<<<<<<< HEAD:CSS/_menu.scss
+        p, h3{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+        
+        
+=======
+        p {
+            max-width: 100%;
+            overflow: hidden;
+            border: solid 1px red;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+>>>>>>> 8fb601706373dbfb0c68e86846a020edcf5ceb02:scss/_menu.scss
+    }
+    .menu-price{
+        width: 10%;
+        align-items: flex-end;
+        padding: 10px;
+        align-self: flex-end;
+    }
+    .menu-icon{
+        float: right;
+        width: 10%;
+        height: 100%;
+        margin: 0 0 0 0;
+        background-color: #99e2d0;
+        color: white;
+        padding: 15px 15px 15px 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        align-self: center;
+    }
+}

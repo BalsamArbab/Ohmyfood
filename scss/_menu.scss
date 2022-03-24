@@ -33,7 +33,13 @@
     .menu-title{
         padding: 10px;
         font-size: 14px;
-        text-overflow: ellipsis;
+        p {
+            max-width: 100%;
+            overflow: hidden;
+            border: solid 1px red;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
     .menu-price{
         align-items: flex-end;

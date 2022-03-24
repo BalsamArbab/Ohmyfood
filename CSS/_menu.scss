@@ -16,7 +16,7 @@
 
 .restaurant-info{
         border-radius: 20px;
-        padding: 5px;
+        padding: 5px 0 20px 5px;
         .far{
             justify-content: flex-end;
         }
@@ -29,7 +29,7 @@
     margin: 10px auto;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     justify-content: space-between;
-    text-overflow: ellipsis;
+    height: 50px;
     .menu-title{
         padding: 10px;
         font-size: 14px;
@@ -39,21 +39,17 @@
         align-items: flex-end;
         padding: 10px;
         align-self: flex-end;
-        
-
     }
     .menu-icon{
         float: right;
-        height: auto;
+        width: 10%;
+        height: 100%;
         margin: 0 0 0 0;
         background-color: #99e2d0;
         color: white;
         padding: 15px 15px 15px 15px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        align-self: center;
     }
-}
-
-course{
-    text-decoration: #99e2d0 underline;
 }

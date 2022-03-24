@@ -31,11 +31,19 @@
     justify-content: space-between;
     height: 50px;
     .menu-title{
+        max-width: 80%;
         padding: 10px;
         font-size: 14px;
+        p, h3{
+        white-space: nowrap;
+        overflow: hidden;
         text-overflow: ellipsis;
+        }
+        
+        
     }
     .menu-price{
+        width: 10%;
         align-items: flex-end;
         padding: 10px;
         align-self: flex-end;

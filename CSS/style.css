@@ -116,12 +116,19 @@ footer {
 }
 
 .menu-item .menu-title {
+  max-width: 80%;
   padding: 10px;
   font-size: 14px;
+}
+
+.menu-item .menu-title p, .menu-item .menu-title h3 {
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .menu-item .menu-price {
+  width: 10%;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;

@@ -108,29 +108,15 @@ footer {
   padding: 10px;
   font-size: 14px;
 }
-<<<<<<< HEAD
-
-.menu-item .menu-title p, .menu-item .menu-title h3 {
-  white-space: nowrap;
-  overflow: hidden;
-=======
 .menu-item .menu-title p {
   max-width: 100%;
   overflow: hidden;
   border: solid 1px red;
   white-space: nowrap;
->>>>>>> 8fb601706373dbfb0c68e86846a020edcf5ceb02
   text-overflow: ellipsis;
 }
 .menu-item .menu-price {
-<<<<<<< HEAD
-  width: 10%;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-=======
   align-items: flex-end;
->>>>>>> 8fb601706373dbfb0c68e86846a020edcf5ceb02
   padding: 10px;
   align-self: flex-end;
 }

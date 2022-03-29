@@ -34,15 +34,6 @@
         max-width: 80%;
         padding: 10px;
         font-size: 14px;
-<<<<<<< HEAD:CSS/_menu.scss
-        p, h3{
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        }
-        
-        
-=======
         p {
             max-width: 100%;
             overflow: hidden;
@@ -50,7 +41,6 @@
             white-space: nowrap;
             text-overflow: ellipsis;
         }
->>>>>>> 8fb601706373dbfb0c68e86846a020edcf5ceb02:scss/_menu.scss
     }
     .menu-price{
         width: 10%;

@@ -12,3 +12,12 @@ p {
 li, span, a, p{
     font-size: 14px;
 }
+
+@mixin button{
+    color: white;
+    background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100%);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+}

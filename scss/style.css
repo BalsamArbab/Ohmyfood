@@ -1,0 +1,295 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Shrikhand', cursive;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+li, span, a, p {
+  font-size: 14px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+  padding: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+  line-height: 25px;
+}
+
+nav {
+  background-color: #eaeaea;
+  padding: 10px;
+  line-height: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .search-txt {
+  border: none;
+  background-color: #eaeaea;
+  padding: 5px 5px 5px 10px;
+}
+
+.call-to-action {
+  background-color: #f6f6f6;
+  line-height: 40px;
+  padding: 15px;
+  text-align: center;
+}
+
+.explore-btn {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%);
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.instructions {
+  padding: 15px;
+}
+
+.instructions li {
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px auto;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.instructions li .fas {
+  padding: 10px;
+  color: #7e7e7e;
+}
+
+.roundnumber {
+  margin-left: -20px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  padding: 5px 8px 5px 8px;
+  color: white;
+}
+
+.restaurants {
+  padding: 15px;
+  background-color: #f6f6f6;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  border-radius: 25px;
+  background-color: white;
+  margin: 10px auto;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card-img {
+  height: 150px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-info {
+  width: 80%;
+  padding: 10px 0 10px 10px;
+}
+
+.card-icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.restaurant-img {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card {
+  margin-top: -40px;
+  padding: 15px;
+  background-color: #f6f6f6;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 30px;
+}
+
+.restaurant-info {
+  border-radius: 20px;
+  padding: 5px 0 20px 5px;
+}
+
+.restaurant-info .far {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px auto;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+}
+
+.menu-item .menu-title {
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.menu-item .menu-title h3, .menu-item .menu-title p {
+  max-width: 100%;
+  overflow: hidden;
+  border: solid 1px red;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.menu-item .menu-price {
+  width: 10%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.menu-item .menu-icon {
+  float: right;
+  width: 10%;
+  height: 100%;
+  margin: 0 0 0 0;
+  background-color: #99e2d0;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.course-name {
+  position: relative;
+}
+
+.course-name::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  bottom: -5px;
+  border-bottom: 2px solid #99e2d0;
+}
+
+.order-btn {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%);
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.instructions li:hover {
+  background-color: #f5edff;
+}
+
+.instructions li:hover .fas {
+  padding: 10px;
+  color: #9356DC;
+}
+
+.card-icon > i {
+  position: relative;
+  font-size: 15px;
+  background-color: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.card-icon > i:before:hover {
+  content: "\f004";
+}
+
+.card-icon > i:after {
+  color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(to bottom, #ff79da, #9356dc);
+  background-clip: text;
+  content: "\f004";
+}
+
+.card-icon > i:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  scale: 1;
+}
+/*# sourceMappingURL=style.css.map */

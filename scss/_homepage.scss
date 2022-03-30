@@ -1,0 +1,83 @@
+nav{
+    background-color: #eaeaea;
+    padding: 10px;
+    line-height: 5px;
+    display: flex;
+    justify-content: center;
+    .search-txt{
+        border: none;
+        background-color:#eaeaea ;
+        padding: 5px 5px 5px 10px;
+    }  
+}
+
+.call-to-action{
+    background-color: #f6f6f6;
+    line-height: 40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.explore-btn{
+    @include button;
+}
+ 
+
+.instructions{
+    padding: 15px;
+    li{
+        width: 90%;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 15px auto;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        .fas{
+            padding: 10px;
+            color: #7e7e7e;
+        } 
+    }
+}
+
+.roundnumber{
+    margin-left: -20px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    padding: 5px 8px 5px 8px;
+    color: white;
+}
+
+
+.restaurants{
+    padding: 15px;
+    background-color: #f6f6f6;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    width: 90%;
+    border-radius: 25px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card-img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-info{
+    width: 80%;
+    padding: 10px 0 10px 10px; 
+}
+
+.card-icon{
+    align-self: center;
+}
+

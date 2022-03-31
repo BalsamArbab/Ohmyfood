@@ -2,7 +2,14 @@ $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $tertiary-color: #99E2D0;
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Shrikhand', cursive;}
+h1,{
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
 
 p {
     font-family: 'Roboto', sans-serif;

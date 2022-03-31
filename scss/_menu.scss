@@ -18,7 +18,7 @@
         border-radius: 20px;
         padding: 5px 0 20px 5px;
         .far{
-            justify-content: flex-end;
+            float: right;
         }
     }
 
@@ -37,7 +37,6 @@
         h3, p{
             max-width: 100%;
             overflow: hidden;
-            border: solid 1px red;
             white-space: nowrap;
             text-overflow: ellipsis;
         }
@@ -50,7 +49,6 @@
     }
     .menu-icon{
         float: right;
-        width: 10%;
         height: 100%;
         margin: 0 0 0 0;
         background-color: #99e2d0;
@@ -64,6 +62,7 @@
 
 .course-name{
     position: relative;
+    padding-top: 20px;
     &::before{
         content: "";
         position: absolute;

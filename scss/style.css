@@ -1,5 +1,10 @@
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -53,12 +58,21 @@ nav .search-txt {
 
 .call-to-action {
   background-color: #f6f6f6;
-  line-height: 40px;
+  line-height: 20px;
   padding: 15px;
   text-align: center;
 }
 
-.explore-btn {
+.call-to-action p {
+  padding: 10px;
+}
+
+.call-to-action p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.call-to-action .explore-btn {
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(to bottom, #FF79DA 0%, #9356DC 100%);
@@ -66,6 +80,7 @@ nav .search-txt {
   padding: 10px;
   border: none;
   text-decoration: none;
+  padding: 10px;
 }
 
 .instructions {
@@ -133,10 +148,18 @@ nav .search-txt {
   padding: 10px 0 10px 10px;
 }
 
+.card-title {
+  font-weight: bold;
+}
+
 .card-icon {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+footer h1 {
+  padding: 1px 0 10px 0;
 }
 
 .restaurant-img {
@@ -162,9 +185,7 @@ nav .search-txt {
 }
 
 .restaurant-info .far {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  float: right;
 }
 
 .menu-item {
@@ -191,7 +212,6 @@ nav .search-txt {
 .menu-item .menu-title h3, .menu-item .menu-title p {
   max-width: 100%;
   overflow: hidden;
-  border: solid 1px red;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -208,7 +228,6 @@ nav .search-txt {
 
 .menu-item .menu-icon {
   float: right;
-  width: 10%;
   height: 100%;
   margin: 0 0 0 0;
   background-color: #99e2d0;
@@ -223,6 +242,7 @@ nav .search-txt {
 
 .course-name {
   position: relative;
+  padding-top: 20px;
 }
 
 .course-name::before {

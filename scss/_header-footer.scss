@@ -15,5 +15,14 @@ footer{
     color: white;
     padding: 20px;
     line-height: 25px;
+    a{
+        text-decoration: underline white;
+        color: white;
+        &:visited{
+            text-decoration: underline $primary-color;
+            color: $primary-color;
+        }
+        
+    }
 
 }

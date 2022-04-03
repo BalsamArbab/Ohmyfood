@@ -38,6 +38,18 @@ footer {
   line-height: 25px;
 }
 
+footer a {
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  color: white;
+}
+
+footer a:visited {
+  -webkit-text-decoration: underline #9356DC;
+          text-decoration: underline #9356DC;
+  color: #9356DC;
+}
+
 nav {
   background-color: #eaeaea;
   padding: 10px;
@@ -227,6 +239,7 @@ footer h1 {
 }
 
 .menu-item .menu-icon {
+  visibility: collapse;
   float: right;
   height: 100%;
   margin: 0 0 0 0;
@@ -311,5 +324,33 @@ footer h1 {
   -webkit-transform: scale(1);
           transform: scale(1);
   scale: 1;
+}
+
+.menu-icon > i {
+  position: absolute;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.menu-icon:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  left: 0;
+}
+
+.menu-icon > i:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.menu-icon {
+  visibility: visible;
+  position: relative;
+  overflow: hidden;
+  left: -100px;
 }
 /*# sourceMappingURL=style.css.map */

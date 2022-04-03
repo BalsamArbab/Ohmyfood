@@ -7,7 +7,6 @@
 }
 
 
-
 .card-icon > i{
     position: relative;
     font-size: 15px;
@@ -42,10 +41,37 @@
     scale: 1;
   }
 
+//////////////
+
+.menu-icon > i{
+    position: absolute;
+    
+    transition: transform 1s ease;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+
+.menu-icon:hover{
+    transition: 1s;
+    left: 0;
+}
+.menu-icon > i:hover{
+    transform: rotate(360deg);
+  }
 
 
 
 
+//slide in
+
+.menu-icon{
+    visibility: visible;
+    position: relative;
+    overflow: hidden;
+    left: -100px;
+
+}
 
 
 

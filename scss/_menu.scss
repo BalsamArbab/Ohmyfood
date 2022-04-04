@@ -1,89 +1,87 @@
-.restaurant-img{
-    background-size: cover;
-    background-position: center;
-    height: 200px;
+.restaurant-img {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurant-card {
+  margin-top: -40px;
+  padding: 15px;
+  background-color: #f6f6f6;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.restaurant-info {
+  border-radius: 20px;
+  padding: 5px 0 20px 5px;
+  .far {
+    float: right;
     padding: 10px;
-    margin-bottom: 10px;
-}
-    
-.restaurant-card{
-    margin-top: -40px;
-    padding: 15px;
-    background-color: #f6f6f6;
-    justify-content: space-around;
-    border-radius: 30px;
+  }
 }
 
-.restaurant-info{
-        border-radius: 20px;
-        padding: 5px 0 20px 5px;
-        .far{
-            float: right;
-            padding: 10px;
-        }
+.item {
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  height: 50px;
+  .item-info {
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    p {
+      max-width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
-
-.item{
-        display: flex;
-        border-radius: 10px;
-        background-color: white;
-        margin: 10px auto;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-        justify-content: space-between;
-        height: 50px;
-        .item-info{
-            width: 80%;
-            padding: 10px;
-            font-size: 14px;
-            p{
-                max-width: 100%;
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-            }
-        .item-title{
-            font-weight: bold;
-        }
-        }
-        .item-price{
-            width: 10%;
-            align-items: flex-end;
-            padding: 10px;
-            align-self: flex-end;
-        }
-        .item-icon{
-            float: right;
-            height: 100%;
-            margin: 0 0 0 0;
-            background-color: #99e2d0;
-            color: white;
-            padding: 15px 15px 15px 15px;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            align-self: center;  
-        }
-    
-    }
-
-.course-name{
-    position: relative;
-    padding-top: 20px;
-    &::before{
-        content: "";
-        position: absolute;
-        width: 30px;
-        bottom: -5px;
-        border-bottom: 2px solid #99e2d0;
-    }
+  }
+  .item-title {
+    font-weight: bold;
+  }
+  .item-price {
+    width: 10%;
+    align-items: flex-end;
+    padding: 10px;
+    align-self: flex-end;
+  }
+  .item-icon {
+    float: right;
+    height: 100%;
+    margin: 0 0 0 0;
+    background-color: #99e2d0;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-self: center;
+  }
 }
 
-.order-btn{ 
-    @include button;
-    text-align: center;
-    width: 20%;
-    margin: 0 auto;
-    a:visited{
-        color:white;
-    }
+.course-name {
+  position: relative;
+  padding-top: 20px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    bottom: -5px;
+    border-bottom: 2px solid #99e2d0;
+  }
 }
 
+.order-btn {
+  @include button;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  a:visited {
+    color: white;
+  }
+}

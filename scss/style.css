@@ -249,7 +249,7 @@ nav .search-txt {
 }
 
 .item .item-info {
-  width: 80%;
+  width: 70%;
   padding: 10px;
   font-size: 14px;
 }
@@ -261,7 +261,7 @@ nav .search-txt {
   text-overflow: ellipsis;
 }
 
-.item .item-info .item-title {
+.item .item-title {
   font-weight: bold;
 }
 
@@ -416,6 +416,37 @@ nav .search-txt {
   to {
     -webkit-transform: rotate(359deg);
             transform: rotate(359deg);
+  }
+}
+
+.course {
+  -webkit-animation: menu-loading 2s cubic-bezier(0.1, -0.6, 0.2, 0) 0s 1;
+          animation: menu-loading 2s cubic-bezier(0.1, -0.6, 0.2, 0) 0s 1;
+}
+
+@-webkit-keyframes menu-loading {
+  0% {
+    -webkit-transform: translatey(100%);
+            transform: translatey(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes menu-loading {
+  0% {
+    -webkit-transform: translatey(100%);
+            transform: translatey(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+    opacity: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

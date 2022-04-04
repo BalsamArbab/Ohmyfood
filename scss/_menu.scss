@@ -19,48 +19,52 @@
         padding: 5px 0 20px 5px;
         .far{
             float: right;
+            padding: 10px;
         }
     }
 
-.menu-item{
-    display: flex;
-    border-radius: 10px;
-    background-color: white;
-    margin: 10px auto;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    justify-content: space-between;
-    height: 50px;
-    .menu-title{
-        width: 80%;
-        padding: 10px;
-        font-size: 14px;
-        h3, p{
-            max-width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
+.item{
+        display: flex;
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px auto;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        justify-content: space-between;
+        height: 50px;
+        .item-info{
+            width: 80%;
+            padding: 10px;
+            font-size: 14px;
+            p{
+                max-width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        .item-title{
+            font-weight: bold;
         }
+        }
+        .item-price{
+            width: 10%;
+            align-items: flex-end;
+            padding: 10px;
+            align-self: flex-end;
+        }
+        .item-icon{
+            visibility: collapse;
+            float: right;
+            height: 100%;
+            margin: 0 0 0 0;
+            background-color: #99e2d0;
+            color: white;
+            padding: 15px 15px 15px 15px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            align-self: center;  
+        }
+    
     }
-    .menu-price{
-        width: 10%;
-        align-items: flex-end;
-        padding: 10px;
-        align-self: flex-end;
-    }
-    .menu-icon{
-        visibility: collapse;
-        float: right;
-        height: 100%;
-        margin: 0 0 0 0;
-        background-color: #99e2d0;
-        color: white;
-        padding: 15px 15px 15px 15px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        align-self: center;  
-    }
-
-}
 
 .course-name{
     position: relative;
@@ -79,5 +83,8 @@
     text-align: center;
     width: 20%;
     margin: 0 auto;
+    a:visited{
+        color:white;
+    }
 }
 

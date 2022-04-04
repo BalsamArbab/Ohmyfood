@@ -230,9 +230,10 @@ nav .search-txt {
 
 .restaurant-info .far {
   float: right;
+  padding: 10px;
 }
 
-.menu-item {
+.item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,20 +248,24 @@ nav .search-txt {
   height: 50px;
 }
 
-.menu-item .menu-title {
+.item .item-info {
   width: 80%;
   padding: 10px;
   font-size: 14px;
 }
 
-.menu-item .menu-title h3, .menu-item .menu-title p {
+.item .item-info p {
   max-width: 100%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.menu-item .menu-price {
+.item .item-info .item-title {
+  font-weight: bold;
+}
+
+.item .item-price {
   width: 10%;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -270,7 +275,7 @@ nav .search-txt {
       align-self: flex-end;
 }
 
-.menu-item .menu-icon {
+.item .item-icon {
   visibility: collapse;
   float: right;
   height: 100%;
@@ -309,6 +314,10 @@ nav .search-txt {
   text-align: center;
   width: 20%;
   margin: 0 auto;
+}
+
+.order-btn a:visited {
+  color: white;
 }
 
 .instructions li:hover {

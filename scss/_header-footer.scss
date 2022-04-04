@@ -1,6 +1,11 @@
 header{
     display: flex;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    .fas{
+        width: 10%;
+        padding: 20px;
+        margin: 0 ;
+    }
     img{
         padding: 10px;
         object-fit: contain;

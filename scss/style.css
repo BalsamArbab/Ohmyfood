@@ -15,12 +15,31 @@ li, span, a, p {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-transform: capitalize;
+}
+
+a:active {
+  -webkit-text-decoration: underline #9356DC;
+          text-decoration: underline #9356DC;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .fas {
+  width: 10%;
+  padding: 20px;
+  margin: 0;
 }
 
 header img {
@@ -289,11 +308,11 @@ footer h1 {
 }
 
 .card-icon {
-  font-size: 40px;
+  font-size: 20px;
   position: relative;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 .card-icon i {
@@ -317,7 +336,6 @@ footer h1 {
 }
 
 .card-icon i.heart-fill:after {
-  content: "\F08A";
   color: transparent;
   position: absolute;
   top: 0;

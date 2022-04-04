@@ -2,7 +2,7 @@ $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $tertiary-color: #99E2D0;
 
-h1,{
+h1{
     font-family: 'Shrikhand', cursive;
 }
 
@@ -27,4 +27,15 @@ li, span, a, p{
     padding: 10px;
     border: none;
     text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-transform: capitalize;
+    }
+    &:active{
+        text-decoration: underline $primary-color;
+    }
 }

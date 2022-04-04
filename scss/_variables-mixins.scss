@@ -31,11 +31,17 @@ li, span, a, p{
 
 
 a{
-    text-decoration: none;
+    text-decoration: underline white;
+    color: black;
     &:hover{
-        text-transform: capitalize;
+        text-transform: capitalize $secondary-color;
     }
-    &:active{
+    &:visited{
         text-decoration: underline $primary-color;
+        color: $primary-color;
     }
+    &:filter(.card-icon){
+        color: transparent;
+    }
+   
 }

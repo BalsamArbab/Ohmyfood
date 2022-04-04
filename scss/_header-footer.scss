@@ -15,19 +15,16 @@ header{
     }
 }
 
+
 footer{
     background-color: #353535;
     color: white;
     padding: 20px;
     line-height: 25px;
-    a{
-        text-decoration: underline white;
-        color: white;
-        &:visited{
-            text-decoration: underline $primary-color;
-            color: $primary-color;
-        }
-        
+    h1{
+        padding: 1px 0 10px 0;
     }
-
-}
+    a{
+        color: white;
+    }        
+    }

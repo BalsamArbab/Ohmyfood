@@ -16,16 +16,23 @@ li, span, a, p {
 }
 
 a {
-  text-decoration: none;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  color: black;
 }
 
 a:hover {
-  text-transform: capitalize;
+  text-transform: capitalize #FF79DA;
 }
 
-a:active {
+a:visited {
   -webkit-text-decoration: underline #9356DC;
           text-decoration: underline #9356DC;
+  color: #9356DC;
+}
+
+a:filter(.card-icon) {
+  color: transparent;
 }
 
 header {
@@ -57,16 +64,12 @@ footer {
   line-height: 25px;
 }
 
-footer a {
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
-  color: white;
+footer h1 {
+  padding: 1px 0 10px 0;
 }
 
-footer a:visited {
-  -webkit-text-decoration: underline #9356DC;
-          text-decoration: underline #9356DC;
-  color: #9356DC;
+footer a {
+  color: white;
 }
 
 nav {
@@ -152,6 +155,7 @@ nav .search-txt {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
+  position: relative;
   border-radius: 25px;
   background-color: white;
   margin: 10px auto;
@@ -189,8 +193,17 @@ nav .search-txt {
       align-self: center;
 }
 
-footer h1 {
-  padding: 1px 0 10px 0;
+.card-label {
+  background: #99E2D0;
+  position: absolute;
+  width: 20%;
+  padding: 5px;
+  top: 5%;
+  left: 75%;
+  text-align: center;
+  color: #0d8f6f;
+  border-radius: 10%;
+  font-weight: bold;
 }
 
 .restaurant-img {
@@ -325,7 +338,6 @@ footer h1 {
 }
 
 .card-icon i.heart-fill {
-  z-index: 2;
   content: "\F08A";
   position: absolute;
   scale: 0;

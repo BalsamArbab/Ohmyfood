@@ -7,7 +7,7 @@
     }
 }
 
-//homepage favourite icon
+//homepage heart icon
 .card-icon {
     font-size: 20px;
     position: relative;
@@ -24,7 +24,6 @@
     z-index: 1;
   }
   .card-icon i.heart-fill {
-    z-index: 2;
     content: "\F08A";
     position: absolute;
     scale: 0;

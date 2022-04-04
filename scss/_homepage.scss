@@ -65,6 +65,7 @@ nav{
 .card {
     display: flex;
     width: 90%;
+    position: relative;
     border-radius: 25px;
     background-color: white;
     margin: 10px auto;
@@ -94,9 +95,15 @@ nav{
     align-self: center;
 }
 
-footer{
-    h1{
-        padding: 1px 0 10px 0;
-    }
-
+.card-label{
+    background: $tertiary-color;
+    position: absolute;
+    width: 20%;
+    padding: 5px;
+    top: 5%;
+    left: 75%;
+    text-align: center;
+    color: #0d8f6f;
+    border-radius: 10%;
+    font-weight: bold;
 }

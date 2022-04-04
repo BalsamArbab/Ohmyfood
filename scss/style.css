@@ -276,7 +276,6 @@ nav .search-txt {
 }
 
 .item .item-icon {
-  visibility: collapse;
   float: right;
   height: 100%;
   margin: 0 0 0 0;
@@ -374,5 +373,49 @@ nav .search-txt {
   scale: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.item-icon {
+  opacity: 0;
+}
+
+.item-icon {
+  -webkit-transform: translate(100%);
+          transform: translate(100%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.item:hover .item-icon {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  opacity: 100%;
+}
+
+.item:hover .item-icon .fas {
+  -webkit-animation: rotation 0.3s linear;
+          animation: rotation 0.3s linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */

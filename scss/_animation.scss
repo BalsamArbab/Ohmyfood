@@ -48,7 +48,26 @@
   }
 
 
-
-
-
-
+//menu check icon
+.item-icon{
+  opacity: 0;
+}
+.item-icon{
+  transform: translate(100%);
+  transition: all 0.3s ease;
+}
+.item:hover .item-icon{
+  transform: translate(0);
+  opacity: 100%;
+  .fas{
+    animation: rotation 0.3s linear;
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

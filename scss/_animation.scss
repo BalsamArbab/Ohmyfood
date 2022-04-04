@@ -1,3 +1,4 @@
+//instructions
 .instructions li:hover{
     background-color: #f5edff;
     .fas {
@@ -6,72 +7,47 @@
     }
 }
 
-
-.card-icon > i{
+//homepage favourite icon
+.card-icon {
+    font-size: 40px;
     position: relative;
-    font-size: 15px;
-    background-color: white;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.card-icon > i:before:hover {
-    content: "\f004";
-}
-
-.card-icon > i:after {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  .card-icon i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .card-icon i.heart-fill {
+    z-index: 2;
+    content: "\F08A";
+    position: absolute;
+    scale: 0;
+    transform: scale(0);
+    transition: all 0.2s ease;
+  }
+  .card-icon i.heart-fill:after {
+    content: "\F08A";
     color: transparent;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    scale: 0;
-    transform: scale(0);
-    transition: all 0.2s ease;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-    -webkit-background-clip: text;
     background-image: linear-gradient(to bottom, #ff79da, #9356dc);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
     background-clip: text;
-    content: "\f004";
-}
-
-.card-icon > i:hover:after {
-    transform: scale(1);
+    -webkit-background-clip: text;
+  }
+  .card-icon:hover i.heart-fill {
     scale: 1;
+    transform: scale(1);
   }
-
-//////////////
-
-.menu-icon > i{
-    position: absolute;
-    
-    transition: transform 1s ease;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-
-
-.menu-icon:hover{
-    transition: 1s;
-    left: 0;
-}
-.menu-icon > i:hover{
-    transform: rotate(360deg);
-  }
-
-
-
-
-//slide in
-
-.menu-icon{
-    visibility: visible;
-    position: relative;
-    overflow: hidden;
-    left: -100px;
-
-}
 
 
 

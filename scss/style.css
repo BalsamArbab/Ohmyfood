@@ -288,69 +288,52 @@ footer h1 {
   color: #9356DC;
 }
 
-.card-icon > i {
+.card-icon {
+  font-size: 40px;
   position: relative;
-  font-size: 15px;
-  background-color: white;
-  -webkit-background-clip: text;
-  background-clip: text;
+  display: block;
+  width: 40px;
+  height: 40px;
 }
 
-.card-icon > i:before:hover {
-  content: "\f004";
+.card-icon i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
-.card-icon > i:after {
+.card-icon i.heart-fill {
+  z-index: 2;
+  content: "\F08A";
+  position: absolute;
+  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card-icon i.heart-fill:after {
+  content: "\F08A";
   color: transparent;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  scale: 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  -webkit-background-clip: text;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background-image: linear-gradient(to bottom, #ff79da, #9356dc);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background-clip: text;
-  content: "\f004";
+  -webkit-background-clip: text;
 }
 
-.card-icon > i:hover:after {
+.card-icon:hover i.heart-fill {
+  scale: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
-  scale: 1;
-}
-
-.menu-icon > i {
-  position: absolute;
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
-}
-
-.menu-icon:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  left: 0;
-}
-
-.menu-icon > i:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.menu-icon {
-  visibility: visible;
-  position: relative;
-  overflow: hidden;
-  left: -100px;
 }
 /*# sourceMappingURL=style.css.map */

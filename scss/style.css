@@ -280,17 +280,22 @@ nav .search-txt {
 }
 
 .item .item-icon {
-  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
   height: 100%;
-  margin: 0 0 0 0;
+  margin-right: -15%;
   background-color: #99e2d0;
   color: white;
-  padding: 15px 15px 15px 15px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .course-name {
@@ -430,6 +435,7 @@ nav .search-txt {
   -webkit-transform: translate(0);
           transform: translate(0);
   opacity: 100%;
+  margin-right: 0%;
 }
 
 .item:hover .item-icon .fas {

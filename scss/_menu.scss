@@ -53,16 +53,17 @@
     padding: 10px;
     align-self: flex-end;
   }
-  .item-icon {
-    float: right;
+  .item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
     height: 100%;
-    margin: 0 0 0 0;
+    margin-right: -15%;
     background-color: #99e2d0;
-    color: white;
-    padding: 15px 15px 15px 15px;
+    color: white;  
     border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    align-self: center;
+    border-bottom-right-radius: 10px; 
   }
 }
 

@@ -225,12 +225,11 @@ nav .search-txt {
 
 .restaurant-info {
   border-radius: 20px;
-  padding: 5px 0 20px 5px;
+  padding: 5px;
 }
 
 .restaurant-info .far {
   float: right;
-  padding: 10px;
 }
 
 .item {
@@ -395,11 +394,9 @@ nav .search-txt {
 
 .loader .fas {
   color: white;
-  font-size: 80px;
-  width: 100px;
-  height: 100px;
-  -webkit-transition: rotate 1s;
-  transition: rotate 1s;
+  font-size: 10vh;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 

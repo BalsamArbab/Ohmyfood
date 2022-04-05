@@ -465,7 +465,7 @@ nav .search-txt {
   }
 }
 
-.course {
+.item {
   -webkit-animation: menu-loading 2s cubic-bezier(0.1, -0.6, 0.2, 0) 0s 1;
           animation: menu-loading 2s cubic-bezier(0.1, -0.6, 0.2, 0) 0s 1;
 }

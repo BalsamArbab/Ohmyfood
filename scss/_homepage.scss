@@ -8,8 +8,10 @@ nav{
         border: none;
         background-color:#eaeaea ;
         padding: 5px 5px 5px 10px;
-    }  
-}
+        margin: 0 auto;
+
+        }  
+    }
 
 .call-to-action{
     background-color: #f6f6f6;
@@ -30,8 +32,6 @@ nav{
 }
 
 
- 
-
 .instructions{
     padding: 15px;
     li{
@@ -51,7 +51,7 @@ nav{
     margin-left: -20px;
     border-radius: 50%;
     background-color: $primary-color;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 10px 5px 10px;
     color: white;
 }
 

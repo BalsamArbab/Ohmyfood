@@ -27,10 +27,13 @@ li, span, a, p{
     padding: 10px;
     border: none;
     text-decoration: none;
+    &:hover{
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    }
 }
 
 a{
-    text-decoration: underline white;
+    text-decoration: none;
     color: black;
     &:hover{
         text-transform: capitalize $secondary-color;

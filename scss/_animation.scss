@@ -59,17 +59,6 @@
 }
 
 
-@media only screen and (min-width : 980px) {
-  .loader-animation {
-    flex-direction: row;
-  }
-  .loader-title {
-    text-align: right;
-    padding-right: 100px;
-  }
-}
-
-
 .l1 {
   animation: disappear 0.5s ease 0s forwards 1;
   opacity: 50%;
@@ -106,8 +95,6 @@
     opacity: 10%;
   }
 }
-
-
 
 //instructions
 .instructions li:hover{

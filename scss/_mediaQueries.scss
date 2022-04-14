@@ -1,6 +1,28 @@
-/* large screens*/
-@media screen and (min-width:768px) {
-    body{
-        background-color:black;
+/* ipad */
+@media only screen and (min-width : 768px) {
+  body {
+      background-color:green;
   }
 }
+
+/* desktop */
+@media only screen and (min-width : 1024px) {           
+  body {
+      background-color:orange;
+  }
+}
+
+
+@media only screen and (min-width : 980px) {
+  .loader-animation {
+    flex-direction: row;
+  }
+  .loader-title {
+    text-align: right;
+    padding-right: 100px;
+  }
+}
+
+
+
+

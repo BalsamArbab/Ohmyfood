@@ -24,7 +24,7 @@
 
 .item {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   border-radius: 10px;
   background-color: white;
   margin: 10px auto;
@@ -57,7 +57,7 @@
     align-items: center;
     width: 15%;
     height: 100%;
-    margin-right: -15%;
+    margin-right: -30%;
     background-color: #99e2d0;
     color: white;  
     border-top-right-radius: 10px;

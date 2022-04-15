@@ -241,9 +241,9 @@ nav .search-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   border-radius: 10px;
   background-color: white;
   margin: 10px auto;
@@ -292,7 +292,7 @@ nav .search-txt {
           align-items: center;
   width: 15%;
   height: 100%;
-  margin-right: -15%;
+  margin-right: -30%;
   background-color: #99e2d0;
   color: white;
   border-top-right-radius: 10px;
@@ -355,8 +355,8 @@ nav .search-txt {
   width: 100vw;
   height: 100vh;
   z-index: 5;
-  -webkit-animation: homepage-loading 3s ease 0.5s forwards 1;
-          animation: homepage-loading 3s ease 0.5s forwards 1;
+  -webkit-animation: homepage-loading 1s ease 3.5s forwards 1;
+          animation: homepage-loading 1s ease 3.5s forwards 1;
 }
 
 @-webkit-keyframes homepage-loading {
@@ -624,7 +624,7 @@ a .card-icon i.heart-fill {
   }
   .loader-title {
     text-align: right;
-    padding-right: 100px;
+    padding-right: 25px;
   }
   .card {
     display: -webkit-box;

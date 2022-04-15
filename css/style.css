@@ -257,7 +257,7 @@ nav .search-txt {
 }
 
 .item .item-info {
-  width: 80%;
+  width: 70%;
   padding: 10px;
   font-size: 14px;
 }
@@ -274,7 +274,7 @@ nav .search-txt {
 }
 
 .item .item-price {
-  width: 10%;
+  width: 15%;
   padding-bottom: 10px;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -290,7 +290,7 @@ nav .search-txt {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 10%;
+  width: 15%;
   height: 100%;
   margin-right: -15%;
   background-color: #99e2d0;
@@ -355,8 +355,8 @@ nav .search-txt {
   width: 100vw;
   height: 100vh;
   z-index: 5;
-  -webkit-animation: homepage-loading 3s ease 3.5s forwards 1;
-          animation: homepage-loading 3s ease 3.5s forwards 1;
+  -webkit-animation: homepage-loading 3s ease 0.5s forwards 1;
+          animation: homepage-loading 3s ease 0.5s forwards 1;
 }
 
 @-webkit-keyframes homepage-loading {
@@ -613,4 +613,71 @@ a .card-icon i.heart-fill {
     opacity: 100%;
   }
 }
+
+/* ipad */
+@media only screen and (min-width: 768px) {
+  .loader-animation {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .loader-title {
+    text-align: right;
+    padding-right: 100px;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+  }
+  .restaurant-cards {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .restaurant-cards .card {
+    width: 45vw;
+    height: 27vh;
+  }
+  .restaurant-cards .card-img {
+    height: 20vh;
+  }
+  .instruction-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .instruction-list li {
+    width: 27vw;
+  }
+  .item-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .item-group .item {
+    width: 30vw;
+    height: 6vh;
+  }
+  .restaurant-img {
+    height: 25vh;
+  }
+}
+
+/* desktop */
 /*# sourceMappingURL=style.css.map */

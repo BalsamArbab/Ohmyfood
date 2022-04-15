@@ -663,14 +663,14 @@ a .card-icon i.heart-fill {
   .instruction-list li {
     width: 27vw;
   }
-  .item-group {
+  .item-content-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .item-group .item {
+  .item-content-container .item {
     width: 30vw;
     height: 6vh;
   }
